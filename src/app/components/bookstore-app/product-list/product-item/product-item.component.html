@@ -1,0 +1,14 @@
+<div class="card" shadow-sm>
+    <img src='{{"./assets/images/"+game.img+".jpg"}}' class="bd-placeholder-img card-img-top" width= "100%">
+    <div class="card-body">
+        <p class="card-text">{{game.name}}</p>
+        <p class="card-text">{{game.price | currency: 'BRL'}}</p>
+        <p class="card-text">Categoria: {{game.category}}</p>
+
+        <div class="btn-group ">
+            <button type="button" class="btn btn-sm btn-primary">Comprar</button>
+            <button type="button" class="btn btn-sm btn-outline-primary">Detalhes</button>
+        </div>
+
+    </div> 
+</div>
